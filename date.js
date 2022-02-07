@@ -16,7 +16,9 @@ exports.getDay = function () {
 
   const options = {
     weekday: "long",
+    day: "2-digit",
+    month: "long",
   };
   return today.toLocaleDateString("en-us", options);
 };
-console.log(module.exports);
+// console.log(module.exports);
